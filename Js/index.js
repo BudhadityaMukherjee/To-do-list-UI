@@ -106,12 +106,12 @@ const render = () => {
 
     tasks.forEach((item) => {
         const remove = document.createElement('img')
-        remove.setAttribute('src', "./images/trash-solid.svg")
+        remove.setAttribute('src', "images/trash-solid.svg")
         remove.setAttribute('class', 'remove')
         remove.dataset.id = item.id
 
         const update = document.createElement('img')
-        update.setAttribute('src', "./images/pen-to-square-regular.svg")
+        update.setAttribute('src', "images/pen-to-square-regular.svg")
         update.setAttribute('class', 'update')
         update.dataset.id = item.id
 
